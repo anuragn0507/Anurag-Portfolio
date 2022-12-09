@@ -14,8 +14,7 @@ function Resume() {
   });
 
   return (
-    <Container fluid className="resume-section">
-      
+    <Container fluid className="resume-section">      
       <Container>
         <Row
           style={{ justifyContent: "center", position: "relative" }}
@@ -36,35 +35,35 @@ function Resume() {
             className="resume-left"
             style={{ justifyContent: "center" }}
           >
-            <h3 className="resume-title">Achievements</h3>
+            <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title=""
-              content="Post Graduation Diploma in Computer Application"
-              date="2020"
+              title="Software Engineer"
+              content="Ramsoft Technologies Pvt Ltd / Meddiff Technologies Pvt Ltd | Bengaluru"
+              date="Aug 2021- Dec 2021"
             />
             <Resumecontent
-              title=""
-              content="Internship in Graphic Designing"
-              date="2020"
-            />
+              title="Software Engineer"
+              content="Meddiff Technologies Pvt Ltd | Bengaluru"
+              date="Feb 2020 –Aug2021"
+            />            
             
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="Bachelor of Science"
-              content="Barkatullah University, Bhopal"
-              date="2015 - 2018"
+              content="Meerut Institute Of Engineering & Technologies (AKTU University , Lakhnow)"
+              date="2016 - 2020"
             />
             <Resumecontent
               title="Intermediate"
               content="Jawahar Navodaya Vidhayalaya, Raisen"
-              date="2013 - 2014"
+              date="2014 - 2015"
             />
             <Resumecontent
               title="High School"
               content="Jawahar Navodaya Vidhayalaya, Raisen"
-              date="2014 - 2015"
+              date="2012 - 2013"
             />
           </Col>
         </Row>
