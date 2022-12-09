@@ -15,6 +15,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { DiGit, DiGithub, DiGithubAlt, DiGithubFull } from "react-icons/di";
+import { SiGit, SiGithub } from "react-icons/si";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -41,7 +43,7 @@ function NavBar() {
         <Navbar.Brand href="/">
           <div>
             <img
-              src="https://t3.ftcdn.net/jpg/03/72/97/52/360_F_372975263_8yxqA1ljmixFFpWm7eChcJ514YapeKMc.jpg"
+              src="https://www.freepnglogos.com/uploads/a-letter-logo-0.png"
               alt="logo"
               style={{ height: "50px", borderRadius: "10px" }}
             />
@@ -52,11 +54,10 @@ function NavBar() {
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
-        >
-        </Navbar.Toggle>
+        ></Navbar.Toggle>
         <Navbar.Collapse
           id="responsive-navbar-nav"
-          style={{ justifyContent:"flex-end" }}
+          style={{ justifyContent: "flex-end" }}
         >
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
@@ -100,7 +101,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://medium.com/@kurmibalram936"
+                href="https://medium.com/@anuragn1107"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -110,12 +111,12 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/balram1996"
+                href="https://github.com/anuragn0507"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <SiGithub style={{ fontSize: "1.7em" }} />
+                {/* <AiFillStar style={{ fontSize: "1.1em" }} /> */}
               </Button>
             </Nav.Item>
           </Nav>

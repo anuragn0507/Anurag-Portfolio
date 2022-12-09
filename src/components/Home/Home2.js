@@ -144,13 +144,13 @@ function Home2() {
             <h3>
               Contact Details:
               <p
-                href="tel:+7067502442"
+                href="tel:+8439869770"
                 style={{
                   color: "#5AC5FB",
                 }}
               >
-                +917067502442 <br />
-                kurmibalram936@gmail.com
+                +918439869770 <br />
+                anuragn1107@gmail.com
               </p>
             </h3>
             <br /> <br />

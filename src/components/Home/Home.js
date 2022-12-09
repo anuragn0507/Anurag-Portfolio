@@ -5,6 +5,8 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Button } from "@material-ui/core";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function Home() {
   useEffect(() => {
@@ -29,8 +31,14 @@ function Home() {
                 <strong className="main-name"> Anurag Yadav</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: "0px 50px", textAlign: "left" }}>
                 <Type />
+              </div>
+              <div style={{ padding: "10px 50px", textAlign: "left" }}>
+                <Button size="large" color="success"  variant='contained'>
+                  <AiOutlineDownload />
+                  Resume
+                </Button>
               </div>
             </Col>
 

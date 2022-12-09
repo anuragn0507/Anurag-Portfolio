@@ -51,7 +51,7 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="Bachelor of Science"
+              title="Bachelor Of Technologies"
               content="Meerut Institute Of Engineering & Technologies (AKTU University , Lakhnow)"
               date="2016 - 2020"
             />

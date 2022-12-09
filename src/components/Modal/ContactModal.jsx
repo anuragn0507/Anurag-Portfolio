@@ -52,7 +52,7 @@ export default function TransitionsModal() {
         <Fade in={open}>
           <form onSubmit={submit}>
             <div className={classes.paper} style={{ textAlign: "Center" }}>
-              <div style={{ color: "red" }}>
+              <div style={{ color: "#0AABF0" }}>
                 Thank you! We received your submission.
               </div>
             </div>

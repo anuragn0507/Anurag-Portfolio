@@ -9,7 +9,7 @@ import { DiJavascript1, DiCss3, DiJavascript, DiGit } from "react-icons/di";
 
 function ProjectCards(props) {
   return (
-    <Card  className="project-card-view">
+    <Card className="project-card-view">
       <Card.Title>
         <p style={{ color: "whitesmoke", fontSize: "30px", lineHeight: "2" }}>
           {props.title}
@@ -30,8 +30,8 @@ function ProjectCards(props) {
           <DiJavascript className="java" />
           <DiGit className="java" />
         </div> */}
-        <div style={{ fontSize:"20px", fontWeight:"bold" }}>
-         Tech-Stacks: {props.techStacks}
+        <div style={{ fontSize: "20px", fontWeight: "bold" }}>
+          Tech-Stacks: {props.techStacks}
         </div>
 
         <Col md={12} className="home-about-social">
@@ -46,18 +46,9 @@ function ProjectCards(props) {
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
               >
-                <AiFillGithub />
+                <AiFillGithub style={{ fontSize: "1.7em" }} />
               </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href={props.linkmedium}
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
-              >
-                <ImBlog />
-              </a>
+              <p style={{marginTop: "2px"}}>Github</p>
             </li>
             <li className="social-icons">
               <a
@@ -66,8 +57,23 @@ function ProjectCards(props) {
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
               >
-                <AiOutlineFundProjectionScreen />
+                <AiOutlineFundProjectionScreen style={{ fontSize: "1.6em" }} />
+                
               </a>
+              <p style={{marginTop: "2px"}}>Deployed Link</p>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href={props.linkmedium}
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <ImBlog style={{ fontSize: "1.5em" }} />
+                
+              </a>
+              <p style={{marginTop: "2px"}}>Blog</p>
             </li>
           </ul>
         </Col>
