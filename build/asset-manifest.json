@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.da56298f.chunk.css",
+    "main.js": "./static/js/main.750e2f35.chunk.js",
+    "main.js.map": "./static/js/main.750e2f35.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.02af46b2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.02af46b2.js.map",
+    "static/css/2.047300a4.chunk.css": "./static/css/2.047300a4.chunk.css",
+    "static/js/2.593d33ae.chunk.js": "./static/js/2.593d33ae.chunk.js",
+    "static/js/2.593d33ae.chunk.js.map": "./static/js/2.593d33ae.chunk.js.map",
+    "static/js/3.b7747584.chunk.js": "./static/js/3.b7747584.chunk.js",
+    "static/js/3.b7747584.chunk.js.map": "./static/js/3.b7747584.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.047300a4.chunk.css.map": "./static/css/2.047300a4.chunk.css.map",
+    "static/css/main.da56298f.chunk.css.map": "./static/css/main.da56298f.chunk.css.map",
+    "static/js/2.593d33ae.chunk.js.LICENSE.txt": "./static/js/2.593d33ae.chunk.js.LICENSE.txt",
+    "static/media/Anurag_Yadav_Android_Developer__Masai.2c901c40.pdf": "./static/media/Anurag_Yadav_Android_Developer__Masai.2c901c40.pdf",
+    "static/media/blissworld-clone.0801216d.png": "./static/media/blissworld-clone.0801216d.png",
+    "static/media/myntra-clone.bab98f86.png": "./static/media/myntra-clone.bab98f86.png",
+    "static/media/style.css": "./static/media/pre.4d199119.svg",
+    "static/media/youtube-clone.40906c36.png": "./static/media/youtube-clone.40906c36.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02af46b2.js",
+    "static/css/2.047300a4.chunk.css",
+    "static/js/2.593d33ae.chunk.js",
+    "static/css/main.da56298f.chunk.css",
+    "static/js/main.750e2f35.chunk.js"
+  ]
+}
