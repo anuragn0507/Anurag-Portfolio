@@ -96,14 +96,14 @@ function Home2() {
             <Tilt>
               <img
                 style={{ height: "22vw" }}
-                src="anurag.jpg"
+                src="anurag3.jpg"
                 className="img-fluid"
                 alt="avatar"
               />
             </Tilt>
           </Col>
         </Row>
-        <Row style={{ marginTop: "5vh" }}>
+        {/* <Row style={{ marginTop: "5vh" }}>
           <Col md={12} className="home-about-social" data-aos="fade-up">
             <h1>FIND ME ON</h1>
             <p>
@@ -156,7 +156,7 @@ function Home2() {
             <br /> <br />
             <TransitionsModal />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

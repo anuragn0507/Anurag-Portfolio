@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  --section-background-color: linear-gradient(
+    to bottom left,
+    #016597bd,
+    #000000
+  );
+
+  /* --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  ); */
+  
+  --imp-text-color: #0ac4ee;
 }
 
 .App-logo {

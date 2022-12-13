@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Balram Kurmi.pdf";
+import resume from "../../Assets/Anurag_Yadav_Android_Developer__Masai.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -23,7 +23,7 @@ function Resume() {
           <Button
             style={{ width: "20vh", margin: "2vw 0" }}
             variant="primary"
-            href={pdf}
+            href={resume}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -74,7 +74,7 @@ function Resume() {
           <Button
             style={{ width: "20vh", margin: "4vw 0" }}
             variant="primary"
-            href={pdf}
+            href={resume}
           >
             <AiOutlineDownload />
             &nbsp;Download CV

@@ -30,13 +30,17 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
+        <Home />
+        <About />
+        <Projects />
+        <Resume />
 
-        <Switch>
+        {/* <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
-        </Switch>
+        </Switch> */}
 
         <Footer />
       </div>
