@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect , useRef} from "react";
 import Pre from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
@@ -24,16 +24,23 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  const home = useRef("home");
+  const about = useRef("about");
+  const projects = useRef("projects");
+  const resume = useRef("resume");
+  
+
   return (
     <Router>
       <Pre load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
+        <Navbar home={home} about={about} projects={projects} resume={resume}/>
         <ScrollToTop />
-        <Home />
-        <About />
-        <Projects />
-        <Resume />
+        <Home ref={home}  />
+        <About ref={about}/>
+        <Projects ref={projects} />
+        <Resume ref={resume} />
+        <Footer />
 
         {/* <Switch>
           <Route path="/" exact component={Home} />
@@ -42,7 +49,7 @@ function App() {
           <Route path="/resume" component={Resume} />
         </Switch> */}
 
-        <Footer />
+        
       </div>
     </Router>
   );

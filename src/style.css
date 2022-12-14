@@ -252,6 +252,16 @@ html {
 .home-header {
   padding-top: 80px !important;
 }
+.section-container{
+  position: relative;
+
+}
+.home-links{
+  position: absolute;
+  top:35%;
+  left: 7%;
+  padding: 10px 50px;
+}
 
 .home-section {
   position: relative;
@@ -301,6 +311,22 @@ html {
   }
   .Typewriter__cursor {
     display: none !important;
+  }
+  .home-links{
+    position: absolute;
+    top:22%;
+    left: 10%;
+    padding: 10px 50px;
+  }
+  
+}
+
+@media (max-width: 361px) {
+  .home-links{
+    position: absolute;
+    top:23%;
+    left: 8%;
+    padding: 10px 50px;
   }
 }
 

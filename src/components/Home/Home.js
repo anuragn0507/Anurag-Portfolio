@@ -17,7 +17,7 @@ function Home() {
   });
 
   return (
-    <section>
+    <section className="section-container">
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
@@ -38,9 +38,24 @@ function Home() {
                 <Type />
               </div>
 
-              <div style={{ padding: "10px 50px", textAlign: "left" }}>
+              
+            </Col>
+
+            <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-bottom">
+              <img
+                src="https://www.lanecode.com/wp-content/uploads/2021/02/cover-img-1-1.png"
+                alt="home pic"
+                className="img-fluid"
+              />
+            </Col>
+          </Row>
+        </Container>
+        
+      </Container>
+      <div className="home-links" >
                 <Button
-                  href={resume}
+                  href="https://drive.google.com/file/d/12LvA9HVA7vpCj_GAMFzJFc2JRw4NYBzb/view?usp=share_link"
+                  target="_blank"
                   variant="primary"
                   style={{
                     padding: "7px",
@@ -72,18 +87,6 @@ function Home() {
                   <SiLinkedin style={{ fontSize: "25px" }} />
                 </Button>
               </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-bottom">
-              <img
-                src="https://www.lanecode.com/wp-content/uploads/2021/02/cover-img-1-1.png"
-                alt="home pic"
-                className="img-fluid"
-              />
-            </Col>
-          </Row>
-        </Container>
-      </Container>
       <Home2 />
     </section>
   );

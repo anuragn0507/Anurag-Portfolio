@@ -23,7 +23,8 @@ function Resume() {
           <Button
             style={{ width: "20vh", margin: "2vw 0" }}
             variant="primary"
-            href={resume}
+            href="https://drive.google.com/file/d/12LvA9HVA7vpCj_GAMFzJFc2JRw4NYBzb/view?usp=share_link"
+            target="_blank"
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -45,7 +46,17 @@ function Resume() {
               title="Software Engineer"
               content="Meddiff Technologies Pvt Ltd | Bengaluru"
               date="Feb 2020 –Aug2021"
-            />            
+            /> 
+
+            <Button
+            style={{ width: "20vh", margin: "2vw 0" }}
+            variant="primary"
+            href="https://drive.google.com/file/d/1I-RMtAeIxYUIqE_16IcDwpX_TlLzovAs/view?usp=sharing"
+            target="_blank"
+          >
+            <AiOutlineDownload />
+            &nbsp;Appraisal Letter
+          </Button>           
             
           </Col>
           <Col md={6} className="resume-right">
@@ -74,7 +85,8 @@ function Resume() {
           <Button
             style={{ width: "20vh", margin: "4vw 0" }}
             variant="primary"
-            href={resume}
+            href="https://drive.google.com/file/d/12LvA9HVA7vpCj_GAMFzJFc2JRw4NYBzb/view?usp=share_link"
+            target="_blank"
           >
             <AiOutlineDownload />
             &nbsp;Download CV

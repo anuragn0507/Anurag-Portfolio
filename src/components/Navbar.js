@@ -18,7 +18,7 @@ import { CgFileDocument } from "react-icons/cg";
 import { DiGit, DiGithub, DiGithubAlt, DiGithubFull } from "react-icons/di";
 import { SiGit, SiGithub } from "react-icons/si";
 
-function NavBar() {
+function NavBar(props) {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -39,6 +39,7 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
+      
       <Container>
         <Navbar.Brand href="/">
           <div>
@@ -70,9 +71,9 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/about"
-                onClick={() => updateExpanded(false)}
+                onClick={() =>{ updateExpanded(false);}}
               >
-                <AiOutlineUser style={{ marginBottom: "6px" }} /> About
+                <AiOutlineUser  style={{ marginBottom: "6px" }} onClick={() =>{props.about.current.scrollIntoView({behavior:"smooth"})}}/> About
               </Nav.Link>
             </Nav.Item>
 
@@ -116,12 +117,13 @@ function NavBar() {
                 className="fork-btn-inner"
               >
                 <SiGithub style={{ fontSize: "1.7em" }} />
-                {/* <AiFillStar style={{ fontSize: "1.1em" }} /> */}
+                
               </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
+      
     </Navbar>
   );
 }
