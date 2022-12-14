@@ -16,7 +16,7 @@ function Footer() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/balram1996"
+                  href="https://github.com/anuragn0507"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -26,7 +26,7 @@ function Footer() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/BalramKurmi7"
+                  href="https://twitter.com/Anuragy0507"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -36,7 +36,7 @@ function Footer() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/balram-kurmi-998324215/"
+                  href="https://www.linkedin.com/in/anurag-yadav-38015b15a/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
