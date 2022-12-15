@@ -29,7 +29,7 @@ function Projects() {
               imgPath={blissworld}
               title="blissworld-clone"
               description="We have built Ecom website using JAVASCRIPT | REACT | REDUX | JSON-SERVER | CSS | CHAKRA-UI, We were 4 member in the team, for code collaboration we used github regularly. We divided out work among four according to the expeertiseand in ust 4 days we have achieved some main functionality like Login, SignUp, Product Filter, Add to cart using Redux etc. My wholesome experience was good. I learned a lot from this "
-              linklive="https://blissworld-clone-alpha.netlify.app/"
+              linklive="https://bliss-world-clone.vercel.app/"
               link="https://github.com/anuragn0507/BlissWorld-clone/tree/Master/blissworld-react-app"
               linkmedium="https://medium.com/@abhirajrajappan/bliss-world-clone-eddf0631f3ed"
               sitelink=""
